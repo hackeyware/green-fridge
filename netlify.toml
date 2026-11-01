@@ -1,0 +1,6 @@
+# Alternative free hosting: drag-and-drop the repo on netlify.com,
+# or `npx netlify-cli deploy --prod`. GitHub Pages is configured via
+# .github/workflows/deploy.yml — either works out of the box.
+[build]
+  command = "npm run build"
+  publish = "dist"
